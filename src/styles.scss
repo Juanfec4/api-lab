@@ -1,0 +1,20 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+.movies{
+    &__list{
+        list-style: none;
+    }
+    &__title{
+        margin-bottom: 0;
+    }
+    &__list-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__movie-image{
+        width: 100px;
+        border-radius: 3px;
+    }
+}
